@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="event-listing-styling.css" />
+	</head>
+	<body>
+		<!-- Component functionality starts here, remove top boilerplate for use with the main site-->
+		<div class="event-listing-container">
+			<div class="event-listing-header">
+				<h1 class="event-listing-title">Name of the Event</h1>
+				<h2 class="category">Event's Category</h2>
+			</div>
+			<!-- The Bronze tier is selected as the default one-->
+			<!-- Users will be able to change the tier with buttons-->
+			<div class="tier-buttons">
+				<button class="tier-btn active" data-tier="bronze">
+					Bronze
+				</button>
+				<button class="tier-btn" data-tier="silver">Silver</button>
+				<button class="tier-btn" data-tier="gold">Gold</button>
+			</div>
+
+			<div class="tier-content" id="tierContent">
+				<!-- Default content goes here -->
+				<p>This is the Bronze tier. Basic perks included.</p>
+			</div>
+			<div class="event-listing-description">
+				<h3 class="description-title">Event Description</h3>
+				<p class="description-text">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
+					do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua.
+				</p>
+			</div>
+		</div>
+	</body>
+	<script src="event-listing-functionality.js"></script>
+</html>

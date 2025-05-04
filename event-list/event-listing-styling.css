@@ -1,0 +1,4 @@
+.tier-btn.active {
+    background-color: #ffd700; /* Just to show it's active */
+    color: white;
+}
