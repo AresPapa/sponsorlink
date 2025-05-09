@@ -8,6 +8,15 @@ const tierData = {
 	gold: "Welcome to the Gold tier! Full access granted.",
 };
 
+// Set Bronze tier as default
+document.addEventListener("DOMContentLoaded", () => {
+	const bronzeButton = document.querySelector(
+		'.tier-btn[data-tier="bronze"]'
+	);
+	bronzeButton.classList.add("active");
+	content.innerHTML = `<p>${tierData.bronze}</p>`;
+});
+
 // Tier selection logic
 buttons.forEach((button) => {
 	button.addEventListener("click", () => {
