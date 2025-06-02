@@ -1,0 +1,25 @@
+button {
+    overflow: hidden;
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 16px;
+    color: #1f1f1f;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+}
+
+.accept {
+    border: 1px solid #00c2a8;
+}
+
+.decline {
+    border: 1px solid #ff4a3d;
+}
+
+.modify {
+    border: 1px solid #ffb400;
+}
