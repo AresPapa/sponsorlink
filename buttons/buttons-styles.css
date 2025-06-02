@@ -1,5 +1,4 @@
-button {
-    overflow: hidden;
+.btn {
     display: inline-block;
     padding: 8px 16px;
     border-radius: 10px;

@@ -4,11 +4,15 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="buttons.css" />
+        <link rel="stylesheet" href="buttons-styles.css" />
     </head>
     <body>
-        <button class="accept">Accept</button>
-        <button class="modify">Modify</button>
-        <button class="decline">Decline</button>
+        <div class="received-offer-buttons-event" data-offer-id="12345"> 
+			<!-- The offer ID will be unique to each offer, fetched from the database -->
+            <button class="btn accept">Accept</button>
+            <button class="btn modify">Modify</button>
+            <button class="btn decline">Decline</button>
+            <script src="dummy-logic.js"></script>
+        </div>
     </body>
 </html>
