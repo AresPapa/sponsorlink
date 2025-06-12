@@ -11,6 +11,11 @@
     background-color: #ffffff;
 }
 
+.btn:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
 .accept {
     border: 1px solid #00c2a8;
 }
