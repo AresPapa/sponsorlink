@@ -1,26 +1,28 @@
 document
     .querySelectorAll(".received-offer-buttons-event")
     .forEach((container) => {
+        // First of all, select all the containers that represent received offers.
 
-		// Extract the offer ID from the container's data attribute (data-offer-id) using dataset. 
         const offerId = container.dataset.offerId;
+        // Extract the offer ID from the container's data attribute (data-offer-id), so it knows which offer is being interacted with.
 
-		// Logging for debugging purposes
         const logAction = (action) => {
             console.log(`Offer ${offerId}: ${action}`);
+            // Logging for debugging purposes.
 
-            // Placeholder for future backend logic
             alert(`Simulating ${action} action for Offer #${offerId}`);
+            // Sending an alert to simulate the action taken on the offer.
+            // When we incorporate real logic, this will be replaced with actual functionality.
         };
-		
-		// Adding event listeners to the buttons, right now only logging actions
+
         container
             .querySelector(".accept")
-            .addEventListener("click", () => logAction("ACCEPTED"));
+            .addEventListener("click", () => logAction("ACCEPTED")); // Accept button.
         container
             .querySelector(".decline")
-            .addEventListener("click", () => logAction("DECLINED"));
+            .addEventListener("click", () => logAction("DECLINED")); // Decline button.
         container
             .querySelector(".modify")
-            .addEventListener("click", () => logAction("MODIFIED"));
+            .addEventListener("click", () => logAction("MODIFIED")); // Modify button.
+        // Adding event listeners to the buttons, they call the logAction function.
     });
