@@ -1,10 +1,10 @@
 document
     .querySelectorAll(".received-offer-buttons-event")
     .forEach((container) => {
-        // First of all, select all the containers that represent received offers.
+        // Select all the containers that represent received offers.
 
         const offerId = container.dataset.offerId;
-        // Extract the offer ID from the container's data attribute (data-offer-id), so it knows which offer is being interacted with.
+        // Extract the ID of the offer from the container's data attribute (data-offer-id), so it knows which offer is being interacted with.
 
         const logAction = (action) => {
             console.log(`Offer ${offerId}: ${action}`);
