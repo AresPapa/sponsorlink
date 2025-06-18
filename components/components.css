@@ -1,0 +1,87 @@
+:root {
+    --charcoal-black: #1f1f1f; /* (base text + navbars) */
+    --slate-gray: #444; /* secondary text */
+    --light-gray: #f4f4f4; /* backgrounds, input fields */
+    --white: #ffffff; /* main background for contrast */
+
+    --sky-blue: #00b2ff; /* primary accent color */
+    --sun-yellow: #ffd700; /* secondary accent color */
+    --warm-red: #ff4a3d; /* alert or error color */
+    --teal-green: #00c2a8; /* success or confirmation color */
+}
+
+* {
+    font-size: 16px;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.spacer {
+    height: 100px;
+}
+/* Button Style */
+
+.btn {
+    border-radius: 15px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+.primary-btn {
+    background-color: var(--sky-blue);
+    border: none;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    border: 2px solid var(--sky-blue);
+}
+
+/* Navigation Menu Style */
+
+.navigation-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    background-color: #333;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+    height: auto;
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.login-btn {
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.login-btn a {
+    text-decoration: none;
+    color: #ffffff;
+}

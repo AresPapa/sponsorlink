@@ -1,0 +1,57 @@
+
+------ TYPEFACE ------
+
+Font: Inter
+Font Size: 16px
+H1: 48px W: 700 (bold)
+H2: 36px W: 600 (semi-bold)
+H3: 24px W: 400 (regular)
+Body: 16px W: 400 (regular)
+Buttons: 16px W: 600 (semi-bold)
+Labels/Smaller: 12px W: 500 (medium)
+
+------ SPACING ------
+
+Spacing between sections big: 144px
+Margin between sections small: 64px
+Padding inside containers / cards: 24-32px
+Margin between elements in a form: 16px
+Button padding: 12px vertical, 24px horizontal
+
+------ COLORS ------
+
+
+charcoal-black: #1f1f1f     base text + navbars
+slate-gray: #444444         secondary text
+light-gray: #f4f4f4 /* backgrounds, input fields */
+white: #ffffff /* main background for contrast */
+
+sky-blue: #00b2ff /* primary accent color */
+sun-yellow: #ffd700 /* secondary accent color */
+warm-red: #ff4a3d /* alert or error color */
+teal-green: #00c2a8 /* success or confirmation color */
+
+------ BUTTONS ------
+
+- GLOBAL BUTTON STYLE -
+
+border-radius: 15px
+padding: 12px 24px
+
+- PRIMARY BUTTON STYLE -
+
+background-color: (color)
+border: none
+
+- SECONDARY BUTTON STYLE -
+
+background-color: transparent
+border: 2px solid (color)
+
+------ NAVIGATION MENU ------
+
+background-color: #1f1f1f
+
+------ FOOTER ------
+
+background-color: #1f1f1f
