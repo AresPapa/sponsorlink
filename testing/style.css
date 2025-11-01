@@ -1,0 +1,12 @@
+.default-field {
+  max-width: 1200px;
+}
+
+#description {
+  max-height: 1em;
+  overflow: hidden;
+  /* transition: max-height 0.5s ease-in-out; */
+}
+#description.expanded {
+  max-height: 500px;
+}
