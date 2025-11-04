@@ -1,0 +1,48 @@
+/* Basic, non-opinionated styles — tweak to your theme */
+.sl-dash {
+	display: flex;
+	height: 100vh;
+}
+
+.sl-dash__side {
+	width: 25vh;
+	padding: 12px;
+}
+
+.sl-dash__side ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sl-dash__link {
+	display: block;
+	padding: 10px 12px;
+	border-radius: 6px;
+	text-decoration: none !important;
+	color: var(--ast-global-style-2);
+	margin-bottom: 8px;
+	transition: background 0.15s ease-in-out;
+}
+
+.sl-dash__link:hover {
+	background: var(--ast-global-color-5);
+	color: var(--ast-global-color-2);
+}
+
+.sl-dash__link.is-active {
+	background-color: var(--ast-global-color-0);
+	color: #fff;
+}
+
+.sl-dash__content {
+	flex: 1;
+	background: var(--ast-global-color-5);
+	border-radius: 8px;
+	padding: 18px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.sl-list {
+	padding-left: 1rem;
+}
