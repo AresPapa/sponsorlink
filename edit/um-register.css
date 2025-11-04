@@ -1,0 +1,494 @@
+<div
+    class="entry-content clear"
+    data-ast-blocks-layout="true"
+    itemprop="text"
+    style=""
+>
+    <p></p>
+
+    <div class="um um-register um-725 uimob800" style="opacity: 1">
+        <div class="um-form" data-mode="register">
+            <form method="post" action="">
+                <div class="um-row _um_row_1" style="margin: 0px 0px 30px">
+                    <div class="um-col-1">
+                        <div
+                            id="um_field_725_sp_brand_name"
+                            class="um-field um-field-text um-field-sp_brand_name um-field-text um-field-type_text"
+                            data-key="sp_brand_name"
+                            style=""
+                        >
+                            <div class="um-field-label" style="">
+                                <label for="sp_brand_name-725" style=""
+                                    >Brand Name</label
+                                >
+                                <div class="um-clear"></div>
+                            </div>
+                            <div class="um-field-area">
+                                <input
+                                    autocomplete="off"
+                                    class="um-form-field valid not-required"
+                                    type="text"
+                                    name="sp_brand_name-725"
+                                    id="sp_brand_name-725"
+                                    value=""
+                                    placeholder=""
+                                    data-validate=""
+                                    data-key="sp_brand_name"
+                                    aria-invalid="false"
+                                    style=""
+                                />
+                            </div>
+                        </div>
+                        <div
+                            id="um_field_725_sp_brand_category"
+                            class="um-field um-field-select um-field-sp_brand_category um-field-select um-field-type_select"
+                            data-key="sp_brand_category"
+                            style=""
+                        >
+                            <div class="um-field-label" style="">
+                                <label for="sp_brand_category-725" style=""
+                                    >Brand Category</label
+                                >
+                                <div class="um-clear"></div>
+                            </div>
+                            <div class="um-field-area">
+                                <select
+                                    data-default=""
+                                    name="sp_brand_category"
+                                    id="sp_brand_category"
+                                    data-validate=""
+                                    data-key="sp_brand_category"
+                                    class="um-form-field valid not-required um-s1 select2-hidden-accessible"
+                                    style="width: 100%; display: block"
+                                    data-placeholder=""
+                                    aria-invalid="false"
+                                    data-select2-id="sp_brand_category"
+                                    tabindex="-1"
+                                    aria-hidden="true"
+                                >
+                                    <option
+                                        value=""
+                                        data-select2-id="2"
+                                    ></option>
+                                    <option
+                                        value="General Business &amp; Commerce"
+                                    >
+                                        General Business &amp; Commerce
+                                    </option>
+                                    <option value="Automotive &amp; Transport">
+                                        Automotive &amp; Transport
+                                    </option>
+                                    <option value="Technology &amp; Innovation">
+                                        Technology &amp; Innovation
+                                    </option>
+                                    <option value="Food &amp; Lifestyle">
+                                        Food &amp; Lifestyle
+                                    </option>
+                                    <option value="Sports &amp; Entertainment">
+                                        Sports &amp; Entertainment
+                                    </option>
+                                    <option
+                                        value="Environment &amp; Social Impact"
+                                    >
+                                        Environment &amp; Social Impact
+                                    </option>
+                                    <option
+                                        value="Finance &amp; Business Services"
+                                    >
+                                        Finance &amp; Business Services
+                                    </option>
+                                    <option value="Other">Other</option></select
+                                ><span
+                                    class="select2 select2-container select2-container--default"
+                                    dir="ltr"
+                                    data-select2-id="1"
+                                    style="width: 100%"
+                                    ><span class="selection"
+                                        ><span
+                                            class="select2-selection select2-selection--single"
+                                            role="combobox"
+                                            aria-haspopup="true"
+                                            aria-expanded="false"
+                                            tabindex="0"
+                                            aria-disabled="false"
+                                            aria-labelledby="select2-sp_brand_category-container"
+                                            style=""
+                                            ><span
+                                                class="select2-selection__rendered"
+                                                id="select2-sp_brand_category-container"
+                                                role="textbox"
+                                                aria-readonly="true"
+                                                ><span
+                                                    class="select2-selection__placeholder"
+                                                ></span></span
+                                            ><span
+                                                class="select2-selection__arrow"
+                                                role="presentation"
+                                                ><b
+                                                    role="presentation"
+                                                ></b></span></span></span
+                                    ><span
+                                        class="dropdown-wrapper"
+                                        aria-hidden="true"
+                                    ></span
+                                ></span>
+                            </div>
+                        </div>
+                        <div
+                            id="um_field_725_sp_brand_custom_category"
+                            class="um-field um-field-text um-is-conditional um-field-sp_brand_custom_category um-field-text um-field-type_text"
+                            data-key="sp_brand_custom_category"
+                            data-cond-0-action="show"
+                            data-cond-0-field="sp_brand_category"
+                            data-cond-0-operator="equals to"
+                            data-cond-0-value="Other"
+                            style="display: none"
+                        >
+                            <div class="um-field-label">
+                                <label for="sp_brand_custom_category-725"
+                                    >Custom Category</label
+                                >
+                                <div class="um-clear"></div>
+                            </div>
+                            <div class="um-field-area">
+                                <input
+                                    autocomplete="off"
+                                    class="um-form-field valid not-required"
+                                    type="text"
+                                    name="sp_brand_custom_category-725"
+                                    id="sp_brand_custom_category-725"
+                                    value=""
+                                    placeholder=""
+                                    data-validate=""
+                                    data-key="sp_brand_custom_category"
+                                    aria-invalid="false"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="um-col-121">
+                        <div
+                            id="um_field_725_first_name"
+                            class="um-field um-field-text um-field-first_name um-field-text um-field-type_text"
+                            data-key="first_name"
+                            style=""
+                        >
+                            <div class="um-field-label" style="">
+                                <label for="first_name-725">First Name</label>
+                                <div class="um-clear"></div>
+                            </div>
+                            <div class="um-field-area">
+                                <input
+                                    autocomplete="off"
+                                    class="um-form-field valid"
+                                    type="text"
+                                    name="first_name-725"
+                                    id="first_name-725"
+                                    value=""
+                                    placeholder=""
+                                    data-validate=""
+                                    data-key="first_name"
+                                    aria-invalid="false"
+                                    style=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="um-col-122">
+                        <div
+                            id="um_field_725_last_name"
+                            class="um-field um-field-text um-field-last_name um-field-text um-field-type_text"
+                            data-key="last_name"
+                            style=""
+                        >
+                            <div class="um-field-label" style="">
+                                <label for="last_name-725" style=""
+                                    >Last Name</label
+                                >
+                                <div class="um-clear"></div>
+                            </div>
+                            <div class="um-field-area">
+                                <input
+                                    autocomplete="off"
+                                    class="um-form-field valid"
+                                    type="text"
+                                    name="last_name-725"
+                                    id="last_name-725"
+                                    value=""
+                                    placeholder=""
+                                    data-validate=""
+                                    data-key="last_name"
+                                    aria-invalid="false"
+                                    style=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="um-clear"></div>
+                    <div class="um-col-1">
+                        <div
+                            id="um_field_725_sp_email"
+                            class="um-field um-field-text um-field-sp_email um-field-text um-field-type_text"
+                            data-key="sp_email"
+                            style=""
+                        >
+                            <div class="um-field-label" style="">
+                                <label for="sp_email-725">Email</label>
+                                <div class="um-clear"></div>
+                            </div>
+                            <div class="um-field-area">
+                                <input
+                                    autocomplete="off"
+                                    class="um-form-field valid"
+                                    type="text"
+                                    name="sp_email-725"
+                                    id="sp_email-725"
+                                    value=""
+                                    placeholder=""
+                                    data-validate="unique_email"
+                                    data-key="sp_email"
+                                    aria-invalid="false"
+                                    style=""
+                                />
+                            </div>
+                        </div>
+                        <div
+                            id="um_field_725_sp_password"
+                            class="um-field um-field-password um-field-sp_password um-field-password um-field-type_password"
+                            data-key="sp_password"
+                            style=""
+                        >
+                            <div class="um-field-label" style="">
+                                <label for="sp_password-725">Password</label>
+                                <div class="um-clear"></div>
+                            </div>
+                            <div class="um-field-area">
+                                <input
+                                    class="um-form-field valid not-required"
+                                    type="password"
+                                    name="sp_password-725"
+                                    id="sp_password-725"
+                                    value=""
+                                    placeholder=""
+                                    data-validate=""
+                                    data-key="sp_password"
+                                    aria-invalid="false"
+                                    style=""
+                                />
+                            </div>
+                        </div>
+                        <div
+                            id="um_field_725_confirm_sp_password"
+                            class="um-field um-field-password um-field-sp_password um-field-password um-field-type_password"
+                            data-key="confirm_sp_password"
+                            style=""
+                        >
+                            <div class="um-field-label" style="">
+                                <label for="confirm_sp_password-725" style=""
+                                    >Confirm Password</label
+                                >
+                                <div class="um-clear"></div>
+                            </div>
+                            <div class="um-field-area">
+                                <input
+                                    class="um-form-field valid not-required"
+                                    type="password"
+                                    name="confirm_sp_password-725"
+                                    id="confirm_sp_password-725"
+                                    value=""
+                                    placeholder="Confirm Password"
+                                    data-validate=""
+                                    data-key="confirm_sp_password"
+                                    aria-invalid="false"
+                                    style=""
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="um-col-121">
+                        <div
+                            id="um_field_725_sp_vat"
+                            class="um-field um-field-text um-field-sp_vat um-field-text um-field-type_text"
+                            data-key="sp_vat"
+                            style=""
+                        >
+                            <div class="um-field-label" style="">
+                                <label for="sp_vat-725"
+                                    >VAT/Tax ID Number</label
+                                >
+                                <div class="um-clear"></div>
+                            </div>
+                            <div class="um-field-area">
+                                <input
+                                    autocomplete="off"
+                                    class="um-form-field valid not-required"
+                                    type="text"
+                                    name="sp_vat-725"
+                                    id="sp_vat-725"
+                                    value=""
+                                    placeholder=""
+                                    data-validate="numeric"
+                                    data-key="sp_vat"
+                                    aria-invalid="false"
+                                />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="um-col-122">
+                        <div
+                            id="um_field_725_sp_id_photo"
+                            class="um-field um-field-file um-field-sp_id_photo um-field-file um-field-type_file"
+                            data-key="sp_id_photo"
+                            data-mode="register"
+                            data-upload-label="Upload"
+                        >
+                            <input
+                                type="hidden"
+                                name="sp_id_photo-725"
+                                id="sp_id_photo-725"
+                                value=""
+                                aria-invalid="false"
+                            />
+                            <div class="um-field-label">
+                                <label for="sp_id_photo-725"
+                                    >Personal ID Photo</label
+                                >
+                                <div class="um-clear"></div>
+                            </div>
+                            <div
+                                class="um-field-area"
+                                style="text-align: center"
+                            >
+                                <div
+                                    class="um-single-file-preview"
+                                    data-key="sp_id_photo"
+                                ></div>
+                                <a
+                                    href="#"
+                                    data-modal="um_upload_single"
+                                    data-modal-size="normal"
+                                    data-modal-copy="1"
+                                    class="um-button um-btn-auto-width"
+                                    >Upload</a
+                                >
+                            </div>
+                            <div class="um-modal-hidden-content">
+                                <div class="um-modal-header">
+                                    Personal ID Photo
+                                </div>
+                                <div class="um-modal-body">
+                                    <div class="um-single-file-preview">
+                                        <a
+                                            href="javascript:void(0);"
+                                            class="cancel"
+                                            ><i class="um-icon-close"></i
+                                        ></a>
+                                        <div class="um-single-fileinfo">
+                                            <a href="" target="_blank">
+                                                <span class="icon"
+                                                    ><i></i
+                                                ></span>
+                                                <span class="filename"></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="um-single-file-upload"
+                                        data-user_id=""
+                                        data-timestamp="1760773571"
+                                        data-nonce="276f180d4c"
+                                        data-set_id="725"
+                                        data-set_mode="register"
+                                        data-type="file"
+                                        data-key="sp_id_photo"
+                                        data-max_size="999999999"
+                                        data-max_size_error="This file is too large!"
+                                        data-min_size_error="This file is too small!"
+                                        data-extension_error="Sorry this is not a valid file."
+                                        data-allowed_types="pdf,doc,docx,jpeg,png"
+                                        data-upload_text="Drag &amp; Drop File"
+                                        data-max_files_error="You can only upload one file"
+                                        data-upload_help_text=""
+                                    >
+                                        Upload
+                                    </div>
+                                    <div class="um-modal-footer">
+                                        <div class="um-modal-right">
+                                            <a
+                                                href="javascript:void(0);"
+                                                class="um-modal-btn um-finish-upload file disabled"
+                                                data-key="sp_id_photo"
+                                                data-change="Change file"
+                                                data-processing="Processing..."
+                                            >
+                                                Save</a
+                                            >
+                                            <a
+                                                href="javascript:void(0);"
+                                                class="um-modal-btn alt"
+                                                data-action="um_remove_modal"
+                                            >
+                                                Cancel</a
+                                            >
+                                        </div>
+                                        <div class="um-clear"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="um-clear"></div>
+                </div>
+                <input
+                    type="hidden"
+                    name="form_id"
+                    id="form_id_725"
+                    value="725"
+                />
+                <p class="um_request_name">
+                    <label for="um_request_725"
+                        >Only fill in if you are not human</label
+                    >
+                    <input
+                        type="hidden"
+                        name="um_request"
+                        id="um_request_725"
+                        class="input"
+                        value=""
+                        size="25"
+                        autocomplete="off"
+                    />
+                </p>
+                <input
+                    type="hidden"
+                    id="_wpnonce"
+                    name="_wpnonce"
+                    value="1bae99a7e4"
+                /><input
+                    type="hidden"
+                    name="_wp_http_referer"
+                    value="/test-page/"
+                />
+                <div class="um-col-alt">
+                    <div class="um-center">
+                        <input
+                            type="submit"
+                            value="Register"
+                            class="um-button"
+                            id="um-submit-btn"
+                        />
+                    </div>
+
+                    <div class="um-clear"></div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <style>
+        .um-725.um {
+            max-width: 600px;
+        }
+    </style>
+
+    <p></p>
+</div>
