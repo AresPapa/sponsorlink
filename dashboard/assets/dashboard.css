@@ -1,12 +1,41 @@
-/* Basic, non-opinionated styles — tweak to your theme */
+:root {
+  /* bg-colors */
+  --primary: oklch(0.7254 0.161683 238.3332);
+  --bg-dark: oklch(0.92 0 264);
+  --bg: oklch(0.96 0 264);
+  --bg-light: oklch(1 0 264);
+  /* text-colors */
+  --text: oklch(0.25 0 264);
+  --text-muted: oklch(0.4 0 264);
+  /* shadows */
+  --shadow-s: inset 
+  	0 1px 2px #ffffff30, /* top highlight */
+	0 1px 2px #00000030, /* dark shadow */ 
+	0 2px 4px #00000015; /* soft shadow */
+  --shadow-m: inset 
+  0 1px 2px #ffffff50, /* top highlight */ 
+  0 2px 4px #00000030, /* dark shadow */ 
+  0 4px 8px #00000015; /* soft shadow */
+  --shadow-l: inset 
+  0 1px 2px #ffffff70, /* top highlight */ 
+  0 4px 6px #00000030, /* dark shadow */ 
+  0 6px 10px #00000015; /* soft shadow */
+}
+
+body {
+	overflow: hidden; 
+	background-color: var(--bg);
+}
+
 .sl-dash {
 	display: flex;
 	height: 100vh;
 }
 
 .sl-dash__side {
-	width: 25vh;
+	width: 240px;
 	padding: 12px;
+	background-color: var(--bg);
 }
 
 .sl-dash__side ul {
@@ -26,23 +55,111 @@
 }
 
 .sl-dash__link:hover {
-	background: var(--ast-global-color-5);
+	background: var(--bg-light);
 	color: var(--ast-global-color-2);
+	box-shadow: var(--shadow-s);
 }
 
 .sl-dash__link.is-active {
 	background-color: var(--ast-global-color-0);
+	box-shadow: var(--shadow-m);
 	color: #fff;
 }
 
 .sl-dash__content {
 	flex: 1;
-	background: var(--ast-global-color-5);
-	border-radius: 8px;
+	background: var(--bg-dark);
 	padding: 18px;
-	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
 }
 
 .sl-list {
 	padding-left: 1rem;
+}
+
+/* --- Overview base --- */
+.sl-overview__title {
+  margin-bottom: 4px;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.sl-overview__subtitle {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* --- Grid layout --- */
+.sl-grid {
+  display: grid;
+  gap: 20px;
+  margin-bottom: 24px;
+}
+
+.sl-grid--overview {
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+}
+
+.sl-grid--wide {
+  grid-template-columns: 1fr 1fr;
+}
+
+/* --- Cards --- */
+.sl-card {
+  background: #fff;
+  border-radius: 10px;
+  padding: 18px;
+  box-shadow: var(--shadow-s);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.sl-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-m);
+}
+
+.sl-card__title {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.sl-card__value {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #0073aa;
+}
+
+/* Highlight card (first) */
+.sl-card--highlight {
+  background: linear-gradient(135deg, #0073aa, #00a0d2);
+  color: #fff;
+}
+
+.sl-card--highlight .sl-card__value {
+  color: #fff;
+}
+
+/* --- Activity list --- */
+.sl-list--activity {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sl-list--activity li {
+  padding: 6px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* --- Chart area --- */
+.sl-card--stats canvas {
+  width: 100%;
+  height: 220px;
+}
+
+/* --- Responsive --- */
+@media (max-width: 768px) {
+  .sl-grid--wide {
+    grid-template-columns: 1fr;
+  }
 }

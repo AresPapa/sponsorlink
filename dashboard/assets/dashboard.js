@@ -5,6 +5,16 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const links = root.querySelectorAll('.sl-dash__link');
 
+
+  const toggle = document.querySelector('.sl-dash__toggle');
+  const sidebar = document.querySelector('.sl-dash__side');
+
+  if (toggle && sidebar) {
+    toggle.addEventListener('click', () => {
+      sidebar.classList.toggle('is-open');
+    });
+  }
+
   function setActive(target) {
     links.forEach(a => a.classList.remove('is-active'));
     target.classList.add('is-active');
@@ -44,6 +54,7 @@ document.addEventListener('DOMContentLoaded', function () {
       loadSection(this.dataset.section);
     });
   });
+
 
   // initial load
   const first = root.querySelector('.sl-dash__link.is-active') || links[0];
