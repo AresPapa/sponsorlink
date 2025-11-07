@@ -4,66 +4,66 @@
 
 /* Cover photo */
 .um-cover-add-i {
-  background-color: var(--ast-global-color-5);
+	background-color: var(--ast-global-color-5);
 }
 
 /* Add cover button */
 .um-icon-plus {
-  color: var(--ast-global-color-0);
+	color: var(--ast-global-color-0);
 }
 
 /* Header Area */
 .um-header {
-  border: none;
-  padding: 0px;
-  background-color: var(--ast-global-color-5) !important;
+	border: none;
+	padding: 0px;
+	background-color: var(--ast-global-color-5) !important;
 }
 
 /* Header Name*/
 .um-name a {
-  color: var(--ast-global-color-3) !important;
+	color: var(--ast-global-color-3) !important;
 }
 
 .um-profile-meta {
-  padding: 16px 30px 16px 250px !important;
-  border-radius: 10px;
+	padding: 16px 30px 16px 250px !important;
+	border-radius: 10px;
 }
 
 /* Profile Bio */
 .um-meta-text {
-  font-size: 16px;
-  margin: 6px 0 0 0 !important;
+	font-size: 16px;
+	margin: 6px 0 0 0 !important;
 }
 
 .um-main-meta {
-  padding: 0;
+	padding: 0;
 }
 
 .um-profile .um-profile-body {
-  display: none !important;
+	display: none !important;
 }
 
 .um-35.um .um-profile-photo a.um-profile-photo-img {
-  top: -105px;
+	top: -105px;
 }
 .um-35.um .um-profile-photo a.um-profile-photo-img {
-  width: 190px;
-  height: 190px;
+	width: 190px;
+	height: 190px;
 }
 div.uimob960 .um-profile-photo a.um-profile-photo-img {
-  width: 140px !important;
-  height: 140px !important;
-  top: -70px !important;
+	width: 140px !important;
+	height: 140px !important;
+	top: -70px !important;
 }
 .um .um-profile-photo a.um-profile-photo-img,
 .um .um-profile-photo img,
 .um .um-profile-photo span.um-profile-photo-overlay {
-  -moz-border-radius: 999px !important;
-  -webkit-border-radius: 999px !important;
-  border-radius: 999px !important;
+	-moz-border-radius: 999px !important;
+	-webkit-border-radius: 999px !important;
+	border-radius: 999px !important;
 }
 .um-profile-photo a.um-profile-photo-img {
-  border: 5px solid var(--ast-global-color-5) !important;
+	border: 5px solid var(--ast-global-color-5) !important;
 }
 
 /*****************/
@@ -72,26 +72,26 @@ div.uimob960 .um-profile-photo a.um-profile-photo-img {
 
 .um-dropdown,
 .um-dropdown-b {
-  border: none;
-  border-radius: 10px;
+	border: none;
+	border-radius: 10px;
 }
 
 .um-dropdown ul {
-  border: 2px solid var(--ast-global-color-0);
-  border-radius: 10px;
-  background-color: var(--ast-global-color-5) !important;
+	border: 2px solid var(--ast-global-color-0);
+	border-radius: 10px;
+	background-color: var(--ast-global-color-5) !important;
 }
 
 .um-icon-arrow-up-b {
-  color: var(--ast-global-color-0);
+	color: var(--ast-global-color-0);
 }
 
 .um-dropdown-b a {
-  color: var(--ast-global-color-8) !important;
-  margin: 8px;
-  background-color: white;
-  border-radius: 4px !important;
-  border: none !important;
+	color: var(--ast-global-color-8) !important;
+	margin: 8px;
+	background-color: white;
+	border-radius: 4px !important;
+	border: none !important;
 }
 
 /*****************/
@@ -100,41 +100,41 @@ div.uimob960 .um-profile-photo a.um-profile-photo-img {
 
 /* Form */
 .um-form[data-mode="register"] {
-  background-color: var(--ast-global-color-5);
-  padding: 24px;
-  border-radius: 10px;
+	background-color: var(--ast-global-color-5);
+	padding: 24px;
+	border-radius: 10px;
 }
 
 /* Form labels*/
 .um-field label {
-  color: var(--ast-global-color-2);
+	color: var(--ast-global-color-2);
 }
 
 /* Form input areas and category select */
 .um .um-form input[type="text"],
 .um .um-form input[type="password"],
 .um-field .select2.select2-container .select2-selection {
-  border-radius: 10px !important;
-  border: none !important;
+	border-radius: 10px !important;
+	border: none !important;
 }
 
 /* Selection arrow (centered and made it bigger) */
 .um-field
-  .select2.select2-container
-  .select2-selection
-  .select2-selection__arrow,
+	.select2.select2-container
+	.select2-selection
+	.select2-selection__arrow,
 .um-search-filter
-  .select2.select2-container
-  .select2-selection
-  .select2-selection__arrow {
-  align-items: center !important;
-  height: 10% !important;
-  width: 50px !important;
+	.select2.select2-container
+	.select2-selection
+	.select2-selection__arrow {
+	align-items: center !important;
+	height: 10% !important;
+	width: 50px !important;
 }
 
 /* ID photo upload button */
 a.um-button,
 input[type="submit"] {
-  background-color: var(--ast-global-color-0) !important;
-  border-radius: 10px !important;
+	background-color: var(--ast-global-color-0) !important;
+	border-radius: 10px !important;
 }
